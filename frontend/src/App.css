@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.addStoreDialog .MuiDialog-paperWidthSm {
+  min-width: 700px;
+}
+
+.MuiTooltip-popper {
+  font-size: 14px !important;
+}
+
+.mainBody{
+  background-color: #F5F5F5;
+  min-height: 820px;
+}
+.navbar-nav:hover > li >  a {
+  background-color:  black !important;
+} 
+
+.minus .MuiSvgIcon-colorPrimary{
+  color: #c14545 !important;
+}
+
+.storesInput .MuiInputLabel-root{
+font-size:  20px;
+}
+
+.storesInput .MuiInput-root{
+  font-size:  15px;
+  width:  150px;
+}
+
+.row {
+  margin:  0px;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.CheckoutButton{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  position: relative;
+}
+/* style={{ marginTop: 5, marginBottom: 5 ,position:"relative"}} */
